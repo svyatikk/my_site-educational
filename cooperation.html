@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marhattter</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <script defer src="./script/script.js"></script>
+    <script defer src="./script/reveal.js"></script>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="header-top">
+            <div class="work-time">
+                <p>ПН-ПТ с 09:00 до 18:00 </p>
+                <p>СБ-ВС выходной</p>
+            </div>
+
+            <div class="logo">
+                <a href="./index.html">MARHATTER</a>
+            </div>
+
+            <div class="header-holder">
+                <div class="contacts">
+                    <p>+74955803034</p>
+                    <p>marhetter@gmail.com</p>
+                </div>
+
+                <div class="quastion">
+                    Есть вопрос?
+                </div>
+            </div>
+
+            <div class="burger-menu">
+                <div class="burger-icon" id="burger-icon">
+                    <span class="bar bar-line1"></span>
+                    <span class="bar bar-line2"></span>
+                    <span class="bar bar-line3"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <ul class="nav-items">
+                <li class="nav-item"><a href="./collections.html">Коллекции</a>
+
+                </li>
+                <li class="nav-item"><a href="./cooperation.html">Сотрудничество</a>
+                    <ul>
+                        <li><a href="./newsblog.html">Новости</a></li>
+                        <li><a href="./cooperation.html">Оптовая торговля</a></li>
+                        <li><a href="./individuality.html">Индивидуальные заказы</a></li>
+                        <li><a href="./about.html">О бренде</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="./store.html">Магазины</a>
+                    <ul>
+                        <li><a href="./store.html">Магазины MARHATTER</a></li>
+                        <li><a href="./office.html">Офис и производство</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="header-holder">
+                <input type="search" placeholder="Поиск">
+                <a href=""><img src="./img/cart.png" alt="корзина"></a>
+                <a href="./registration.html"><img src="./img/profile.png" alt="профиль"></a>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="slider section-container active">
+            <div class="container slider-container">
+                <!-- <div class=""> -->
+
+                <div class="slide">
+                    <div class="slide-description">
+                        <h1 class="slide-description__h1">"Эксклюзивные предложения"</h1>
+                        <p class="slide-description__p ">Узнайте о наших специальных условиях для оптовых заказов</p>
+                    </div>
+                    <img src="./img/girlinred.png" alt="" class="slide-img">
+                </div>
+                <div class="slide">
+                    <div class="slide-description">
+                        <h1 class="slide-description__h1">"Оптовая торговля: ваш путь к успеху"</h1>
+                        <p class="slide-description__p ">Откройте двери к выгодному сотрудничеству с нами</p>
+                    </div>
+                    <img src="./img/kekick.png" alt="" class="slide-img">
+                </div>
+                <div class="slide">
+                    <div class="slide-description">
+                        <h1 class="slide-description__h1">"Станьте нашим партнером в оптовых поставках"</h1>
+                        <p class="slide-description__p ">Узнайте о привилегиях и скидках для оптовых покупателей</p>
+                    </div>
+                    <img src="./img/tyler.png" alt="" class="slide-img">
+                </div>
+                <div class="arrow-holder">
+                    <a class="prev" onclick="plusSlides(-1)"><img src="./img/Arrow 1.png" alt=""></a>
+                    <div class="count">
+                        <p id="count">1</p>
+                        <p>/3</p>
+                    </div>
+                    <a class="next" onclick="plusSlides(1)"><img src="./img/Arrow 2.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cooperation section-container">
+            <div class="container">
+                <h1 class="section-title">
+                    УСЛОВИЯ ДЛЯ ОПТОВЫХ ПОКУПАТЕЛЕЙ
+                </h1>
+                <div class="cooperation-holder">
+                    <div class="cooperation-card">
+                        <img src="./img/solgoodman.png" alt="" class="cooperation-img">
+                        <h2 class="title">Юридическое лицо</h2>
+                        <p class="cooperation-caption">Мы работаем исключительно с юридическими лицами, предоставляющими
+                            все необходимые документы
+                            для заключения договора о сотрудничестве.
+                        </p>
+                    </div>
+                    <div class="cooperation-card">
+                        <img src="./img/order.png" alt="" class="cooperation-img">
+                        <h2 class="title">Минимальный заказ</h2>
+                        <p class="cooperation-caption">Мы работаем исключительно с юридическими лицами, предоставляющими
+                            все необходимые документы
+                            для заключения договора о сотрудничестве.
+                        </p>
+                    </div>
+                    <div class="cooperation-card">
+                        <img src="./img/deliviry2.png" alt="" class="cooperation-img">
+                        <h2 class="title">Условия поставки</h2>
+                        <p class="cooperation-caption">Мы работаем исключительно с юридическими лицами, предоставляющими
+                            все необходимые документы
+                            для заключения договора о сотрудничестве.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cooperation section-container">
+            <div class="container">
+                <h1 class="section-title">
+                    КАК ОФОРМИТЬ ЗАКАЗ?
+                </h1>
+                <div class="cooperation-holder">
+                    <div class="cooperation-card">
+                        <img src="./img/regphoto.png" alt="" class="cooperation-img">
+                        <h2 class="title">Зарегистрируйтесь в личном кабинете</h2>
+                        <p class="cooperation-caption">Чтобы получить доступ ко всем категориям товаров по оптовым
+                            ценам, пожалуйста, зарегистрируйтесь в нашей системе.
+                        </p>
+                    </div>
+                    <div class="cooperation-card">
+                        <img src="./img/order.png" alt="" class="cooperation-img">
+                        <h2 class="title">Оформите заказ</h2>
+                        <p class="cooperation-caption">После того, как вы завершите регистрацию, наши оптовые цены будут
+                            доступны вам, а вы сможете начать оформление заказа в соответствии с вашими потребностями.
+                        </p>
+                    </div>
+                    <div class="cooperation-card">
+                        <img src="./img/manager.png" alt="" class="cooperation-img">
+                        <h2 class="title">Оформите заказ</h2>
+                        <p class="cooperation-caption">Помните, что наш персональный менеджер всегда готов предоставить
+                            вам консультацию по любым вопросам, касающимся нашей продукции или условий сотрудничества.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cooperation section-container">
+            <div class="container">
+                <h1 class="section-title">
+                    ДОСТАВКА ТОВАРА
+                </h1>
+                <div class="cooperation-holder">
+                    <div class="cooperation-card">
+                        <img src="./img/contract.png" alt="" class="cooperation-img">
+                        <h2 class="title">Подписание договора на поставку
+                        </h2>
+
+                    </div>
+                    <div class="cooperation-card">
+                        <img src="./img/order.png" alt="" class="cooperation-img">
+                        <h2 class="title">Выставление и оплата счета</h2>
+
+                    </div>
+                    <div class="cooperation-card">
+                        <img src="./img/freedeliviry.png" alt="" class="cooperation-img">
+                        <h2 class="title">Отправка заказанного товара</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="form section-container">
+            <div class="form container ">
+                <form action="">
+                    <h1 class="form-title section-title">ФИО</h1>
+                    <input type="text" class="form-input" placeholder="Ваше имя">
+                    <input type="text" class="form-input" placeholder="Ваша фамаилия">
+                    <h1 class="form-title section-title">E-mail</h1>
+                    <input type="text" class="form-input" placeholder="Ваша почта">
+                    <h1 class="form-title section-title">Пароль</h1>
+                    <input type="text" class="form-input" placeholder="Придумайте пароль">
+                    <input type="text" class="form-input" placeholder="Повторите пароль">
+                    <h1 class="form-title section-title">Местоположение</h1>
+                    <input type="text" class="form-input" placeholder="Страна">
+                    <input type="text" class="form-input" placeholder="Город">
+                    <input type="text" class="form-input" placeholder="Адрес">
+                    <h1 class="form-title section-title">Телефон</h1>
+                    <input type="text" class="form-input" placeholder="Ваш телефон">
+                    <h1 class="form-title section-title" placeholder="выбирете тип">Тип организации</h1>
+                    <select name="" id="" class="form-input">
+                        <option value="">Выберите тип</option>
+                        <option value="">тип 1</option>
+                        <option value="">тип 2</option>
+                        <option value="">тип 3</option>
+                    </select>
+                    <h1 class="form-title section-title">Телефон</h1>
+                    <input type="text" class="form-input" placeholder="8-999-999-99-99">
+                    <button class="button form-button">В корзину</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-description">
+                <div class="work-time work-time__foter">
+                    <p>ПН-ПТ с 09:00 до 18:00 </p>
+                    <p>СБ-ВС выходной</p>
+                </div>
+                <div class="contacts">
+                    <p>+74955803034</p>
+                    <p>marhetter@gmail.com</p>
+                </div>
+                <ul class="nav-items nav-items__footer">
+                    <li class="nav-item"><a href="./collections.html">Коллекции</a></li>
+                    <li class="nav-item"><a href="./cooperation.html">Сотрудничество</a></li>
+                    <li class="nav-item"><a href="./store.html">Магазины</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <p>MARHATTER</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

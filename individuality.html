@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marhattter</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <script defer src="./script/script.js"></script>
+    <script defer src="./script/reveal.js"></script>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="header-top">
+            <div class="work-time">
+                <p>ПН-ПТ с 09:00 до 18:00 </p>
+                <p>СБ-ВС выходной</p>
+            </div>
+
+            <div class="logo">
+                <a href="./index.html">MARHATTER</a>
+            </div>
+
+            <div class="header-holder">
+                <div class="contacts">
+                    <p>+74955803034</p>
+                    <p>marhetter@gmail.com</p>
+                </div>
+
+                <div class="quastion">
+                    Есть вопрос?
+                </div>
+            </div>
+
+            <div class="burger-menu">
+                <div class="burger-icon" id="burger-icon">
+                    <span class="bar bar-line1"></span>
+                    <span class="bar bar-line2"></span>
+                    <span class="bar bar-line3"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <ul class="nav-items">
+                <li class="nav-item"><a href="./collections.html">Коллекции</a>
+
+                </li>
+                <li class="nav-item"><a href="./cooperation.html">Сотрудничество</a>
+                    <ul>
+                        <li><a href="./newsblog.html">Новости</a></li>
+                        <li><a href="./cooperation.html">Оптовая торговля</a></li>
+                        <li><a href="./individuality.html">Индивидуальные заказы</a></li>
+                        <li><a href="./about.html">О бренде</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="./store.html">Магазины</a>
+                    <ul>
+                        <li><a href="./store.html">Магазины MARHATTER</a></li>
+                        <li><a href="./office.html">Офис и производство</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="header-holder">
+                <input type="search" placeholder="Поиск">
+                <a href=""><img src="./img/cart.png" alt="корзина"></a>
+                <a href="./registration.html"><img src="./img/profile.png" alt="профиль"></a>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="slider section-container active">
+            <div class="container slider-container">
+                <!-- <div class=""> -->
+
+                <div class="slide">
+                    <img src="./img/41624.png" alt="" class="slide-img">
+                    <div class="slide-description">
+                        <h1 class="slide-description__h1">"Воплотите свои мечты в реальность"</h1>
+                        <p class="slide-description__p ">Уникальные решения по вашим индивидуальным заказам</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./img/tyler.png" alt="" class="slide-img">
+                    <div class="slide-description">
+                        <h1 class="slide-description__h1">"Персональное обслуживание, индивидуальный подход"</h1>
+                        <p class="slide-description__p ">Доверьте нам реализацию вашей уникальной идеи</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./img/kekick.png" alt="" class="slide-img">
+                    <div class="slide-description">
+                        <h1 class="slide-description__h1">"Индивидуальные заказы: ваш стиль, ваш выбор"</h1>
+                        <p class="slide-description__p ">Создайте что-то по-настоящему особенное вместе с нами</p>
+                    </div>
+                </div>
+                <div class="arrow-holder">
+                    <a class="prev" onclick="plusSlides(-1)"><img src="./img/Arrow 1.png" alt=""></a>
+                    <div class="count">
+                        <p id="count">1</p>
+                        <p>/3</p>
+                    </div>
+                    <a class="next" onclick="plusSlides(1)"><img src="./img/Arrow 2.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="individuality section-container">
+            <div class="individuality-container container">
+                <h1 class="individuality-title section-title">
+                    «СВЯЖЕМ НА ЗАКАЗ»
+                </h1>
+                <div class="cooperation-holder">
+                    <div class="individuality-card">
+                        <img src="./img/hat.png" alt="" class="cooperation-img">
+                        <h2 class="title">Шапки</h2>
+
+                    </div>
+                    <div class="individuality-card">
+                        <img src="./img/scarff.png" alt="" class="cooperation-img">
+                        <h2 class="title">Шарфы и снуды</h2>
+
+                    </div>
+                    <div class="individuality-card">
+                        <img src="./img/pledicon.png" alt="" class="cooperation-img">
+                        <h2 class="title">Условия поставки</h2>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="individuality section-container">
+            <div class="individuality-container container">
+                <h1 class="individuality-title section-title">
+                    Индивидуальные заказы Marhatter
+                </h1>
+                <p class="individuality-p">Компания Marhatter принимает заказы на индивидуальное изготовление вязаных
+                    головных уборов и аксессуаров.</p>
+                <p class="individuality-p">Мы готовы разработать и произвести вязанные головные уборы и аксессуары
+                    различного уровня сложности.</p>
+                <p class="individuality-p">Наше дизайн-бюро проведут консультацию, подберут вид сырья, оптимальные
+                    варианты декорирования и предложат лучшие варианты дизайна.</p>
+                <p class="individuality-p">Условия индивидуального заказа:
+                    от 250 единиц одного цвета.</p>
+            </div>
+        </section>
+        <section class="individuality section-container">
+            <div class="individuality-container container">
+                <h1 class="individuality-title section-title">
+                    «Как компания работает по индивидуальным заказам»
+                </h1>
+                <div class="wholesale-cards">
+                    <div class="wholesale-card add-arrow">
+                        <img src="./img/regphoto.png" alt="" class="wholesale-card__img">
+                        <p class="wholesale-card__pharagraph">-Получение заказа</p>
+                    </div>
+                    <div class="wholesale-card add-arrow">
+                        <img src="./img/order.png" alt="" class="wholesale-card__img">
+                        <p class="wholesale-card__pharagraph">-Консультация персонального менеджера</p>
+                    </div>
+                    <div class="wholesale-card add-arrow">
+                        <img src="./img/manager.png" alt="" class="wholesale-card__img">
+                        <p class="wholesale-card__pharagraph">-Разработка технического задания и согласование</p>
+                    </div>
+                    <div class="wholesale-card add-arrow">
+                        <img src="./img/contract.png" alt="" class="wholesale-card__img">
+                        <p class="wholesale-card__pharagraph">-Разработка и согласование образца изделия</p>
+                    </div>
+                    <div class="wholesale-card add-arrow">
+                        <img src="./img/zapusk.png" alt="" class="wholesale-card__img">
+                        <p class="wholesale-card__pharagraph">-Запуск изделия на изготовление.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-description">
+                <div class="work-time work-time__foter">
+                    <p>ПН-ПТ с 09:00 до 18:00 </p>
+                    <p>СБ-ВС выходной</p>
+                </div>
+                <div class="contacts">
+                    <p>+74955803034</p>
+                    <p>marhetter@gmail.com</p>
+                </div>
+                <ul class="nav-items nav-items__footer">
+                    <li class="nav-item"><a href="./collections.html">Коллекции</a></li>
+                    <li class="nav-item"><a href="./cooperation.html">Сотрудничество</a></li>
+                    <li class="nav-item"><a href="./store.html">Магазины</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <p>MARHATTER</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

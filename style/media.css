@@ -1,0 +1,127 @@
+@media only screen and (max-width:1105px) {
+    .add-arrow:nth-child(5)::after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:915px) {
+    .collection-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+    }
+
+    .collection-row_holder {
+        flex-wrap: wrap;
+    }
+
+    .collection-card-bg4_2,
+    .collection-card-bg5_2 {
+        display: flex;
+    }
+
+    .collection-card-bg4,
+    .collection-card-bg5 {
+        display: none;
+    }
+
+    .about-marhatter__holder {
+        flex-direction: column;
+    }
+
+    .add-arrow:nth-child(4)::after {
+        left: -50px;
+    }
+
+    .add-arrow:nth-child(5)::after {
+        display: block;
+        left: -50px;
+    }
+
+    .collection-card-bg6,
+    .collection-card-bg7 {
+        max-width: 350px;
+        width: 100%;
+        height: 420px;
+    }
+}
+
+@media only screen and (max-width:830px) {
+    .add-arrow:nth-child(2)::after {
+        display: none;
+    }
+
+    .add-arrow:nth-child(3)::after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 20px;
+    }
+
+    .work-time,
+    .header-holder,
+    .quastion,
+    .header-bottom {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .slide {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .slide-description {
+        margin-bottom: 20px;
+    }
+
+    .add-arrow::after {
+        display: none;
+    }
+
+    .add-arrow:nth-child(5)::after {
+        display: none;
+    }
+
+    .advantages-item {
+        flex-direction: column;
+    }
+
+    .product-card {
+        justify-content: center;
+
+    }
+
+    .newsteller-holder {
+        flex-direction: column;
+    }
+
+    .news {
+        max-width: 100%;
+    }
+
+    .store-holder {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .footer-container,
+    .footer-description {
+        justify-content: center;
+    }
+
+    .breadcrumb {
+        display: none;
+    }
+
+    .breadcrumb-back {
+        display: inherit;
+    }
+}
