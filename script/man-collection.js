@@ -31,7 +31,7 @@ document.getElementById('apply-btn').addEventListener('click', function () {
 var originalOrder = [];
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Сохраняем исходный порядок карточек при загрузке страницы
+    // исходный порядок карточек при загрузке страницы
     originalOrder = Array.from(document.querySelectorAll('.catalog-card'));
 });
 

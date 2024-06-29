@@ -83,7 +83,6 @@
      opacity: 1;
  }
 
- /*  */
  .header {
      padding: 25px 50px;
      font-family: var(--font-family-oswald);
@@ -253,19 +252,16 @@
      width: 20px;
  }
 
- /* Стили для боковой панели */
  .side-menu {
      position: fixed;
      top: 0;
      right: -250px;
-     /* Скройте панель за пределами экрана */
      width: 250px;
      height: 100%;
      background-color: #333;
      color: white;
      transition: right 0.3s ease;
      z-index: 1000;
-     /* Убедитесь, что панель выше других элементов */
  }
 
  .side-menu ul {
@@ -285,13 +281,11 @@
      display: block;
  }
 
- /* Стили для активной боковой панели */
  .side-menu.active {
      right: 0;
-     /* Покажите панель */
+
  }
 
- /* Стили для бургер-иконки */
  .burger-menu {
      cursor: pointer;
  }
@@ -307,7 +301,7 @@
      visibility: hidden;
      transition: opacity 0.3s ease, visibility 0.3s ease;
      z-index: 999;
-     /* Убедитесь, что затемненный фон ниже боковой панели */
+ 
  }
 
  .overlay.active {
@@ -411,11 +405,8 @@
  .collection-grid {
      display: grid;
      grid-template-columns: repeat(3, 350px);
-     /* Три элемента в ряд */
      grid-template-rows: 420px;
-     /* Один ряд высотой 420px */
      gap: 34px;
-     /* Пространство между элементами */
      place-items: centr;
  }
 
@@ -531,61 +522,6 @@
      display: none;
      background-image: url(../img/womanred.png);
  }
-
- /* .collection-card:nth-child(1) {
-     background-image: url(../img/man.png);
-     grid-column: span 1;
-     Занимает одну ячейку в горизонтальном направлении
-     grid-row: span 1;
-     Занимает одну ячейку в вертикальном направлении
- }
-
- .collection-card:nth-child(2) {
-     background-image: url(../img/woman.png);
-     grid-column: span 1;
-     Занимает одну ячейку в горизонтальном направлении
-     grid-row: span 1;
-     Занимает одну ячейку в вертикальном направлении
- }
-
- .collection-card:nth-child(3) {
-     background-image: url(../img/Aminorrr.png);
-     grid-column: span 1;
-     Занимает одну ячейку в горизонтальном направлении
-     grid-row: span 1;
-     Занимает одну ячейку в вертикальном направлении
- }
-
- .collection-card:nth-child(4) {
-     background-image: url(../img/manw2woman.png);
-     grid-column: 1 / 4;
-     Занимает две ячейки в горизонтальном направлении
-     grid-row: span 2;
-     Занимает две ячейки в вертикальном направлении
- }
-
- .collection-card:nth-child(5) {
-     background-image: url(../img/men.png);
-     grid-column: 1 / 4;
-     Занимает две ячейки в горизонтальном направлении
-     grid-row: span 1;
-     Занимает одну ячейку в вертикальном направлении
- } */
-
-
-
- /* 
- .collection-card:nth-child(4)>.collection-card__title,
- .collection-card:nth-child(5)>.collection-card__title {
-     align-self: center;
- }
-
- .collection-holder {
-     display: flex;
-     flex-direction: column;
- } */
-
- /*  */
 
  .about-marhatter__holder {
      margin-top: 25px;
@@ -757,8 +693,6 @@
  }
 
  .footer-description {
-     /* max-width: 645px;
-     width: 100%; */
 
      display: flex;
      align-items: center;
@@ -949,9 +883,6 @@
 
  /* cooperation */
 
- /* background: rgb(218,218,218);
-background: linear-gradient(48deg, rgba(218,218,218,1) 0%, rgba(218,218,218,1) 100%); */
-
  .cooperation-holder {
      margin-top: 30px;
      display: flex;
@@ -1042,70 +973,7 @@ background: linear-gradient(48deg, rgba(218,218,218,1) 0%, rgba(218,218,218,1) 1
 
  /* news */
 
- /* .grid-container {
-     display: grid;
-     grid-template-columns: 300px 300px 300px 300px;
-     grid-template-rows: 300px 300px;
-     gap: 15px 15px;
-     grid-auto-flow: row;
-     grid-template-areas:
-         "new1 new1 new2 new2"
-         "new3 new3 new3 new4";
- }
-
- .news1 {
-     background-image: url(../img/news1.png);
-     grid-area: new1;
- }
-
- .news2 {
-     background-image: url(../img/news2.png);
-     grid-area: new2;
- }
-
- .news3 {
-     background-image: url(../img/news3.png);
-     grid-area: new3;
- }
-
- .news4 {
-     background-image: url(../img/news4.png);
-     grid-area: new4;
- } */
- /* .grid-container {
-     display: grid;
-     grid-template-columns: repeat(4, 275px);
-     grid-template-rows: repeat(2, 335px);
-     grid-column-gap: 30px;
-     grid-row-gap: 40px;
- }
-
- .news1 {
-     max-width: 630px;
-     width: 630px;
-     background-image: url(../img/news1.png);
-     background-repeat: no-repeat;
-     grid-area: 1 / 1 / 2 / 3;
- }
-
- .news2 {
-     background-repeat: no-repeat;
-     background-image: url(../img/news2.png);
-     grid-area: 1 / 3 / 2 / 5;
- }
-
- .news3 {
-     background-repeat: no-repeat;
-     background-image: url(../img/news3.png);
-     grid-area: 2 / 1 / 3 / 4;
- }
-
- .news4 {
-     background-repeat: no-repeat;
-     background-image: url(../img/news4.png);
-     grid-area: 2 / 4 / 3 / 5;
- } */
- .newsteller-holder {
+  .newsteller-holder {
      display: flex;
      justify-content: center;
      gap: 30px;
@@ -1157,9 +1025,6 @@ background: linear-gradient(48deg, rgba(218,218,218,1) 0%, rgba(218,218,218,1) 1
      background-image: url(../img/news4.png);
  }
 
- /* 
-  */
-
  .news-page-container {
      display: flex;
      align-items: center;
@@ -1172,11 +1037,8 @@ background: linear-gradient(48deg, rgba(218,218,218,1) 0%, rgba(218,218,218,1) 1
      padding-block: 15px;
  }
 
- /*  */
-
  .store-holder {
      display: flex;
-     /* align-items: center; */
      justify-content: space-between;
      margin-top: 15px;
 
