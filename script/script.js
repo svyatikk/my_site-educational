@@ -1,3 +1,17 @@
+document.addEventListener("DOMContentLoaded", function() {
+    var burgerIcon = document.getElementById("burger-icon");
+    var sideMenu = document.getElementById("side-menu");
+    var overlay = document.getElementById("overlay");
+
+    function toggleMenu() {
+        sideMenu.classList.toggle("active");
+        overlay.classList.toggle("active");
+    }
+
+    burgerIcon.addEventListener("click", toggleMenu);
+    overlay.addEventListener("click", toggleMenu);
+});
+
 function slider() {
 
 }
