@@ -4,20 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marhattter</title>
+    <title>Права Граждан и Бизнеса</title>
 
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style/media.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <meta name="description"
+        content="Компания «Права граждан и бизнеса» – юридическая фирма, специализирующаяся на оказании услуг российским и иностранным компаниям, предпринимателям, собственникам бизнеса, гражданам Российской Федерации, а также иностранным гражданам." />
 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reset.css">
 
     <script defer src="./script/script.js"></script>
     <script defer src="./script/reveal.js"></script>
@@ -25,354 +24,161 @@
 
 <body>
     <header class="header">
-
-        <div class="header-top">
-            <div class="work-time">
-                <p>ПН-ПТ с 09:00 до 18:00 </p>
-                <p>СБ-ВС выходной</p>
-            </div>
-
+        <div class="header-main">
             <div class="logo">
-                <a href="./index.html">MARHATTER</a>
+                <a href="./index.html"><img src="./img/logo.webp" alt="Логотип Права Граждан и Бизнеса"></a>
             </div>
 
-            <div class="header-holder">
-                <div class="contacts">
-                    <p>+74955803034</p>
-                    <p>marhetter@gmail.com</p>
-                </div>
 
-                <div class="quastion">
-                    Есть вопрос?
-                </div>
-            </div>
-
-            <div class="burger-menu">
-                <div class="burger-icon" id="burger-icon">
-                    <span class="bar bar-line1"></span>
-                    <span class="bar bar-line2"></span>
-                    <span class="bar bar-line3"></span>
-                </div>
-            </div>
-        </div>
-
-        <div class="header-bottom">
-            <ul class="nav-items">
-                <li class="nav-item"><a href="./collections.html">Коллекции</a>
-
-                </li>
-                <li class="nav-item"><a href="./cooperation.html">Сотрудничество</a>
-                    <ul>
-                        <li><a href="./newsblog.html">Новости</a></li>
-                        <li><a href="./cooperation.html">Оптовая торговля</a></li>
-                        <li><a href="./individuality.html">Индивидуальные заказы</a></li>
-                        <li><a href="./about.html">О бренде</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a href="./store.html">Магазины</a>
-                    <ul>
-                        <li><a href="./store.html">Магазины MARHATTER</a></li>
-                        <li><a href="./office.html">Офис и производство</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <div class="header-holder">
-                <input type="search" placeholder="Поиск">
-                <a href=""><img src="./img/cart.png" alt="корзина"></a>
-                <a href="./registration.html"><img src="./img/profile.png" alt="профиль"></a>
-            </div>
-        </div>
-
-        <div class="side-menu" id="side-menu">
-            <ul>
-                <li><a href="./collections.html">Коллекции</a></li>
-                <li><a href="./cooperation.html">Сотрудничество</a></li>
-                <li><a href="./newsblog.html">Новости</a></li>
-                <li><a href="./cooperation.html">Оптовая торговля</a></li>
-                <li><a href="./individuality.html">Индивидуальные заказы</a></li>
-                <li><a href="./about.html">О бренде</a></li>
-                <li><a href="./store.html">Магазины</a></li>
-                <li><a href="./store.html">Магазины MARHATTER</a></li>
-                <li><a href="./office.html">Офис и производство</a></li>
-            </ul>
-        </div>
-        <div class="overlay" id="overlay"></div>
-    </header>
-    <main>
-        <section class="slider section-container active">
-            <div class="container slider-container">
-                <div class="slide">
-                    <img src="./img/kekick.png" alt="" class="slide-img">
-                    <div class="slide-description">
-                        <h1 class="slide-description__h1">"День бесплатной доставки"</h1>
-                        <p class="slide-description__p ">При покупке любой шапки получите бесплатную доставку на
-                            следующий день.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="./img/tyler.png" alt="" class="slide-img">
-                    <div class="slide-description">
-                        <h1 class="slide-description__h1">"День платной доставки"</h1>
-                        <p class="slide-description__p ">При покупке любой бесплатной шапки получите платную доставку на
-                            следующий день.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="./img/41624.png" alt="" class="slide-img">
-                    <div class="slide-description">
-                        <h1 class="slide-description__h1">"Купи 100 шапок - 101 в дораок"</h1>
-                        <p class="slide-description__p ">При покупке 100 шапок получите 1 в подарок</p>
-                    </div>
-                </div>
-                <div class="arrow-holder">
-                    <a class="prev" onclick="plusSlides(-1)"><img src="./img/Arrow 1.png" alt=""></a>
-                    <div class="count">
-                        <p id="count">1</p>
-                        <p>/3</p>
-                    </div>
-                    <a class="next" onclick="plusSlides(1)"><img src="./img/Arrow 2.png" alt=""></a>
-                </div>
-            </div>
-        </section>
-
-        <section class="about-us section-container reveal">
-            <div class="container">
-                <h1 class="section-title">
-                    ПОЧЕМУ С НАМИ РАБОТАЮТ СВЫШЕ 300 КЛИЕНТОВ В МЕСЯЦ
-                </h1>
-
-                <div class="about-us__cards">
-                    <div class="about-us__card">
-                        <img src="./img/trophy.png" alt="">
-                        <p class="about-us__card-p">Победитель конкурса
-                            ТОП-10 2017</p>
-                    </div>
-                    <div class="about-us__card">
-                        <img src="./img/about_coll.png" alt="">
-                        <p class="about-us__card-p">Продаваемость
-                            коллеции 94 %</p>
-                    </div>
-                    <div class="about-us__card">
-                        <img src="./img/ad.png" alt="">
-                        <p class="about-us__card-p">Рекламная поддержка</p>
-                    </div>
-                    <div class="about-us__card">
-                        <img src="./img/assortiment.png" alt="">
-                        <p class="about-us__card-p">Большой ассортимент
-                            и приятные цены</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="collection section-container reveal">
-            <div class="container">
-                <div class="collection-holder">
-                    <div class="collection-row_holder">
-                        <a href="./man-collection.html">
-                            <div class="collection-card  collection-card-bg1">
-                                <h3 class="collection-card__title">Мужская коллекция</h3>
-                                <div class="collection-card-description">
-                                    <hr>
-                                    <p>Откройте для себя элегантные и стильные новинки в мужской моде.</p>
-                                </div>
-
-                            </div>
-                        </a>
-
-                        <div class="collection-card collection-card-bg2">
-                            <h3 class="collection-card__title">Женская коллекция</h3>
-                            <div class="collection-card-description">
-                                <hr>
-                                <p>Погрузитесь в мир изысканной женской моды.</p>
-                            </div>
-                        </div>
-                        <div class="collection-card collection-card-bg3">
-                            <h3 class="collection-card__title">Детская коллекция</h3>
-                            <div class="collection-card-description">
-                                <hr>
-                                <p>Радуйте своих малышей уникальным стилем.</p>
-                            </div>
-                        </div>
-                        <div class="collection-card collection-card-bg4_2">
-                            <h3 class="collection-card__title">Новая коллекция</h3>
-                        </div>
-                        <div class="collection-card collection-card-bg5_2">
-                            <h3 class="collection-card__title">Спец. предложение | Акции</h3>
-                        </div>
-                    </div>
-                    <div class="collection-row_holder_2">
-                        <div class="collection-card collection-card-bg4">
-                            <h3 class="collection-card__title">Новая коллекция</h3>
-                            <div class="collection-card-description">
-                                <hr>
-                                <p>Не упустите шанс обновить свой гардероб с самыми свежими трендами.</p>
-                            </div>
-                        </div>
-                        <div class="collection-card collection-card-bg5">
-                            <h3 class="collection-card__title">Спец. предложение | Акции</h3>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <section class="about-marhatter section-container reveal">
-            <div class="container">
-                <h1 class="section-title">
-                    ПРОИЗВОДСТВО И ОПТОВАЯ ПРОДАЖА ВЯЗАНЫХ ШАПОК И АКСЕССУАРОВ ОТ MARHATTER
-                </h1>
-                <div class="about-marhatter__holder">
-                    <img src="./img/image 20.png" alt="">
-                    <div class="about-marhatter__right">
-                        <h2 class="about-marhatter__right-h2">
-                            Marhatter - ведущая российская компания
-                        </h2>
-                        <p>Мы гордимся нашим собственным дизайнерским отделом,
-                            работащий над созданием уникальных и
-                            стильных моделей/</p>
-                        <p>С более чем 100 сотрудниками в штате "Marhatter" является не
-                            только производителем, но и
-                            командой единомышленников</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="wholesale section-container reveal">
-            <div class="container">
-                <h1 class="section-title">Схема работы для оптовиков</h1>
-                <div class="wholesale-cards">
-                    <div class="wholesale-card add-arrow">
-                        <img src="./img/regphoto.png" alt="" class="wholesale-card__img">
-                        <p class="wholesale-card__pharagraph">Зарегистрируйся в личном кабинете и получи доступ к
-                            полному каталогу</p>
-                    </div>
-                    <div class="wholesale-card add-arrow">
-                        <img src="./img/order.png" alt="" class="wholesale-card__img">
-                        <p class="wholesale-card__pharagraph">Оформление заказ</p>
-                    </div>
-                    <div class="wholesale-card add-arrow">
-                        <img src="./img/manager.png" alt="" class="wholesale-card__img">
-                        <p class="wholesale-card__pharagraph">Получите консультацию персонального менеджера</p>
-                    </div>
-                    <div class="wholesale-card add-arrow">
-                        <img src="./img/contract.png" alt="" class="wholesale-card__img">
-                        <p class="wholesale-card__pharagraph">Подписание договора и оплата</p>
-                    </div>
-                    <div class="wholesale-card add-arrow">
-                        <img src="./img/deliviry.png" alt="" class="wholesale-card__img">
-                        <p class="wholesale-card__pharagraph">Подписание договора и оплата</p>
-                    </div>
-                </div>
-                <div class="wholesale-title section-title">Остались вопросы?</div>
-                <button class="button" id="showPhoneNumberForm">Получить консультацию</button>
-                <div id="phoneNumberForm" class="wholesale-number">
-                    <label for="phoneNumber">Введите ваш номер телефона:</label>
-                    <input type="text" id="phoneNumber" name="phoneNumber">
-                    <button id="submitPhoneNumber" class="button">Отправить</button>
-                    <button href="#" id="hidePhoneNumberForm" class="button button__transparent">Закрыть</button>
-                </div>
-            </div>
-        </section>
-
-        <section class="partners section-container">
-            <div class="container">
-                <h1 class="section-title">Наши партнеры</h1>
-                <div class="partners-cards">
-                    <div class="partners-card">
-                        <img src="./img/partner1.png" alt="">
-                    </div>
-                    <div class="partners-card">
-                        <img src="./img/partner2.png" alt="">
-                    </div>
-                    <div class="partners-card">
-                        <img src="./img/partner3.png" alt="">
-                    </div>
-                    <div class="partners-card">
-                        <img src="./img/partner4.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="advantages section-container">
-            <div class="container">
-                <h1 class="section-title">НАШИ ПРЕИМУЩЕСТВА</h1>
-                <div class="advantages-items grid-items">
-                    <div class="advantages-item">
-                        <img src="./img/cycle.png" alt="">
-                        <p>Полный производственный цикл</p>
-                    </div>
-                    <div class="advantages-item">
-                        <img src="/img/order.png" alt="">
-                        <p>Бесплатная доставка</p>
-                    </div>
-                    <div class="advantages-item">
-                        <img src="./img/sale.png" alt="">
-                        <p>Гибкая система скидок</p>
-                    </div>
-                    <div class="advantages-item">
-                        <img src="./img/deliviry.png" alt="">
-                        <p>100% возврат остатков</p>
-                    </div>
-                    <div class="advantages-item">
-                        <img src="./img/doneorder.png" alt="">
-                        <p>7 дней на исполнение заказа</p>
-                    </div>
-                    <div class="advantages-item">
-                        <img src="./img/cashback.png" alt="">
-                        <p>Выполняем индивидуальные заказы</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="our-rewiev section-container">
-            <div class="container">
-                <h1 class="section-title">
-                    Отзывы клиентов
-                </h1>
-                <div class="rewievs">
-                    <div class="rewiev">
-                        <img src="./img/rewiev.png" alt="">
-                        <h2>Александр Семкин</h2>
-                        <p>Я рекомендую эту шапку всем, кто ищет удобную, стильную и качественную шапку для зимы.</p>
-                    </div>
-                    <div class="rewiev">
-                        <img src="./img/rewiev.png" alt="">
-                        <h2>Александр Семкин</h2>
-                        <p>Я рекомендую эту шапку всем, кто ищет удобную, стильную и качественную шапку для зимы.</p>
-                    </div>
-                    <div class="rewiev">
-                        <img src="./img/rewiev.png" alt="">
-                        <h2>Александр Семкин</h2>
-                        <p>Я рекомендую эту шапку всем, кто ищет удобную, стильную и качественную шапку для зимы.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-description">
-                <div class="work-time work-time__foter">
-                    <p>ПН-ПТ с 09:00 до 18:00 </p>
-                    <p>СБ-ВС выходной</p>
-                </div>
-                <div class="contacts">
-                    <p>+74955803034</p>
-                    <p>marhetter@gmail.com</p>
-                </div>
-                <ul class="nav-items nav-items__footer">
-                    <li class="nav-item"><a href="./collections.html">Коллекции</a></li>
-                    <li class="nav-item"><a href="./cooperation.html">Сотрудничество</a></li>
-                    <li class="nav-item"><a href="./store.html">Магазины</a></li>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#hero-banner">Главная</a></li>
+                    <li class="nav-item"><a href="#about-us">О нас</a></li>
+                    <li class="nav-item"><a href="./services.html">Услуги</a></li>
+                    <li class="nav-item"><a href="#contact-us">Контакты</a></li>
                 </ul>
+            </nav>
+
+            <div class="header-contacts">
+                <div class="header-phone">
+                    <img src="./img/phone-telephone.svg" alt="+7 999 999 99 99"> <a href="tel:+79999999999" width="24px"
+                        class="phone-number">+7 999 999
+                        99
+                        99</a>
+                </div>
+                <div class="header-mail"><img src="./img/Mail2.svg" alt="yourmail@mail.com" width="24px">
+                    <a href="mailto:yourmail@mail.com" class="mail">yourmail@mail.com</a>
+                </div>
             </div>
-            <div class="logo">
-                <p>MARHATTER</p>
+
+        </div>
+
+        <div class="burger-header">
+            <div class="logo-humburger">
+                <a href="./index.html"><img src="./img/logo-humburger.webp" alt="Логотип Права Граждан и Бизнеса"></a>
+            </div>
+            <div class="menu-burger">
+                <img src="./img/hamburger.svg" alt="меню навигации">
+            </div>
+        </div>
+
+        <div class="header-burger">
+            <nav class="navigation-burger">
+                <ul class="nav-list-burger">
+                    <li class="nav-item-burger"><a href="#hero-banner">Главная</a></li>
+                    <li class="nav-item-burger"><a href="#about-us">О нас</a></li>
+                    <li class="nav-item-burger"><a href="./services.html">Услуги</a></li>
+                    <li class="nav-item-burger"><a href="#contact-us">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="burger-contacts">
+                <div class="header-phone">
+                    <img src="./img/phone-telephone-alt.svg" alt="+7 999 999 99 99"> <a href="tel:+79999999999"
+                        width="24px" class="burger-phone">+7 999 999
+                        99
+                        99</a>
+                </div>
+                <div class="header-mail"><img src="./img/Mail2-alt.svg" alt="yourmail@mail.com" width="24px">
+                    <a href="mailto:yourmail@mail.com" class="mail burger-mail">yourmail@mail.com</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-banner" id="hero-banner">
+        </section>
+
+        <section class="about-us reveal" id="about-us">
+            <div class="container">
+                <div class="about-info">
+                    <h1 class="section-title">Немного о нас</h1>
+                    <p>Компания «Права граждан и бизнеса» – юридическая фирма, специализирующаяся на оказании услуг
+                        российским и иностранным компаниям, предпринимателям, собственникам бизнеса, гражданам
+                        Российской Федерации, а также иностранным гражданам. </p>
+                    <p>Наша организация предоставляет полный
+                        спектр юридических услуг, находит решения сложнейших юридических задач, отвечает за качество
+                        предоставленных услуг. Наша команда юристов обеспечивает индивидуальный подход к каждому
+                        клиенту, оказывая полный комплекс юридических услуг, необходимых для эффективной защиты
+                        интересов клиента и достижения конечного результата.</p>
+                    <p>
+                        Полный спектр услуг, осуществляемых компанией, представлен в графе "Услуги"
+                    </p>
+                    <a class="button-href" href="./services.html">
+                        Перейти к услугам
+                    </a>
+                </div>
+                <div class="about-imgs reveal">
+                    <img src="./img/about-img1.webp" alt="" class="about-img1">
+                    <img src="./img/about-img2.webp" alt="" class="about-img2">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-us reveal" id="contact-us">
+
+            <div class="container contact-us__container">
+                <div class="const-us_left">
+                    <h1 class="section-title alt-title">
+                        Связаться с нами
+                    </h1>
+                    <div class="contact-holder">
+                        <div class="contact-info">
+                            <div class="contact-links">
+                                <p class="contact-paragraph">Телефон:</p>
+                                <a href="tel:+7 999 999 99 99" class="phone-number">+7
+                                    999
+                                    999
+                                    99
+                                    99</a>
+                                <div class="social-holder">
+                                    <a href="#" target="_blank"><img src="./img/telegram-fill.svg" alt="telegram"></a>
+                                    <a href="#" target="_blank"><img src="./img/whatsapp-fill.svg" alt="whatsapp"></a>
+                                </div>
+                            </div>
+                            <div class="contact-links">
+                                <p class="contact-paragraph">Почта:</p>
+                                <p class="contact-paragraph-alt">yourmail@mail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-links">
+                                <p class="contact-paragraph">Адрес:</p>
+                                <p class="contact-paragraph-alt">г. Пушкино, 1-й Некрасовский пр-д, стр. 6</p>
+                            </div>
+                            <div class="contact-links">
+                                <p class="contact-paragraph">Время работы:</p>
+                                <p class="contact-paragraph-alt">(Время работы)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.ru/maps/10748/pushkino/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Пушкино</a><a
+                        href="https://yandex.ru/maps/10748/pushkino/house/1_y_nekrasovskiy_proyezd_6/Z04YfgJhQUUPQFtsfXxwc3RiZw==/?indoorLevel=1&ll=37.851808%2C56.012813&utm_medium=mapframe&utm_source=maps&z=17"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">1-й Некрасовский проезд, 6 —
+                        Яндекс Карты</a><iframe
+                        title="Карта расположения офиса юридической компании «Права граждан и бизнеса"
+                        src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=37.851808%2C56.012813&mode=whatshere&whatshere%5Bpoint%5D=37.851808%2C56.012813&whatshere%5Bzoom%5D=17&z=17"
+                        width="560" height="400" frameborder="0" allowfullscreen="true"
+                        style="position:relative;"></iframe></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Юридическая компания “Права граждан и бизнеса”</p>
+
+        <div class="footer-holder">
+            <div class="footer-phone">
+                <img src="./img/phone-telephone.svg" alt="+7 999 999 99 99" width="24px"> <a href="tel:+79999999999"
+                    class="phone-number-blue">+7 999 999
+                    99
+                    99</a>
+            </div>
+            <div class="footer-mail"><img src="./img/Mail2.svg" alt="Почта - yourmail@mail.com" width="24px">
+                <a href="mailto:yourmail@mail.com" class="mail">yourmail@mail.com</a>
             </div>
         </div>
     </footer>
