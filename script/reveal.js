@@ -1,10 +1,10 @@
 function reveal() {
-    let reveals = document.querySelectorAll("section");
+    var reveals = document.querySelectorAll(".reveal");
 
-    for (let i = 0; i < reveals.length; i++) {
-        let windowHeight = window.innerHeight;
-        let elementTop = reveals[i].getBoundingClientRect().top;
-        let elementVisible = 10;
+    for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 10;
 
         if (elementTop < windowHeight - elementVisible) {
             reveals[i].classList.add("active");
@@ -13,5 +13,7 @@ function reveal() {
         }
     }
 }
+
+window.addEventListener("load", reveal);
 
 window.addEventListener("scroll", reveal);
